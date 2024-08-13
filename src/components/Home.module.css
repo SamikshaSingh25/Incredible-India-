@@ -1,0 +1,478 @@
+/* Home.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+PL:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    position: relative;
+    background-color: #040603;
+    overflow: hidden;
+}
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    background-image: url('D:/personal-project/src/components/Assets/pexels-ranjeet-chauhan-485922-19927019.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+}
+
+.headings {
+    margin: 0vh 0vh 30vh 0vh;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #ffff7d;
+}
+
+.headingline {
+    width: 10%;
+    margin: 20px auto;
+    border: 1px solid #ebeb78;
+}
+
+.mainHeading {
+    font-size: 3em;
+    margin: 10px 0;
+    font-family: "Playfair Display", serif;
+}
+
+.socialLinks {
+    position: absolute;
+    left: 30px;
+    top: 55vh;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socialLinks a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.socialLinks a:hover {
+    color: #ebeb78;
+}
+
+.videoSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #020401;
+    color: white;
+}
+
+.videoHeading {
+    margin-top: 5vh;
+}
+
+.vSubHeading {
+    font-size: 0.9em;
+    color: #ffff7d;
+}
+
+.vWhite, .vBlack {
+    font-family: "Playfair Display", cursive;
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.vBlack {
+    color: #ffff7d;
+}
+
+.vcontentSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 5vh 10vh;
+}
+
+.VvideoSection {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.VvideoSection img:hover {
+    filter: brightness(115%);
+}
+
+.paragraphLeft, .paragraphRight {
+    width: 100%;
+    margin: 0 10vh;
+}
+
+.factSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #020401;
+    color: white;
+}
+
+.factContentSection {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 40px;
+    margin: 2vw 6vw;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.factImageContainer, .factTextContainer {
+    padding: 10px;
+}
+
+.factTextContainer {
+    padding: 0vw 1vw;
+}
+
+.factImage {
+    width: 30vw;
+    height: auto;
+}
+
+.factImage:hover {
+    filter: brightness(105%);
+}
+
+.factHeading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffe3;
+    font-family: "Playfair Display", cursive;
+}
+
+.factContent {
+    font-size: 1em;
+    color: #ffffe3;
+    font-family: "Playfair Display", cursive;
+}
+
+.readMoreButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: transparent;
+    color: #ffffe3;
+    border: none;
+    border: 2px solid #ffffe3;
+    cursor: pointer;
+    margin-bottom: 3vw;
+}
+
+.readMoreButton:hover {
+    background-color: #ebeb78;
+    color: #020401;
+    font-weight: 500;
+    border: 2px solid #ebeb78;
+}
+
+
+
+
+
+
+
+.sliderSection {
+    padding: 30px;
+    background-color: #030502;
+}
+
+.sliderItem {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #cd8b8b;
+    transition: box-shadow 0.3s ease-in-out;
+    width:90% !important;
+    margin-left:15px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.sliderItem:hover {
+    box-shadow: 0 4px 8px rgba(36, 7, 7, 0.2);
+}
+
+.sliderImageContainer {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.sliderImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.sliderContent {
+    padding: 10px;
+}
+
+.sliderName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sliderReview {
+    font-size: 14px;
+    color: #555555;
+    margin-top: 5px;
+}
+
+.sliderButton {
+    background-color:#ebeb78;
+    color: #020401;
+    border: 2px solid #cd8b8b;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.sliderButton:hover {
+    background-color: #ffffe3;
+    color: #020401;
+    font-weight: 500;
+
+}
+
+.bookNow{
+    margin-top:18vh;
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+}
+
+.bookNowbutton{
+    padding:2vh;
+    background-color: transparent;
+    border:2px solid #ffffe3;
+    color: #ffffe3;
+    font-size: 1em;
+}
+
+.bookNowbutton:hover{
+    background-color: #ebeb78;
+    color:#020401;
+    border:2px solid transparent;
+    font-weight: 500;
+}
+.lastsection{
+    background-image: url('D:\personal-project\src\components\Assets\pexels-timfuzail-2261660.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin: 0;
+    /* background-image: url('D:\personal-project\src\components\Assets\pexels-timfuzail-2261660.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* min-height: 20vh;
+    min-width: 20vw; */
+    color: white;
+}
+
+/* New styles for the footer */
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    /* text-align: flex-end; */
+    min-height: -10vh;
+    width: 100%;
+    color: white;
+    /* padding: 20px; */
+    position: relative;
+}
+
+.footerLine {
+    width: 80%;
+    border: 1px solid #ebeb78;
+    margin: 20px 0;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.footerLeft,
+.footerRight {
+    display: flex;
+    align-items: center;
+}
+
+.footerCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLogo {
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+}
+
+.footerButton, .footerContact {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    color: #ffffe3;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.footerButton:hover {
+    background-color: #ebeb78;
+    color: #000000;
+    font-weight: 500;
+    /* border: 2px solid #ebeb78; */
+}
+
+.footerContact:hover{
+    background-color: #ebeb78;
+    color: #000000;
+    font-weight: 500;
+}
+
+.contactSection {
+    background-color:transparent;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+  
+.contactHeading {
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+  
+.contactContent {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.contactForm {
+    width: 40%;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: left;
+}
+  
+.formSection {
+    margin-bottom: 20px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffe3;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cd8b8b;
+  border-radius: 5px;
+  background-color: transparent; 
+  color: white;
+  transition: background-color 0.3s ease-in-out; 
+}
+
+
+.contactInput:focus,
+.contactTextarea:focus {
+  background-color: #ffffe3; 
+  color: #040603; 
+}
+
+  
+.submitButton {
+    background-color: #ebeb78;
+    color: #020401;
+    border: 2px solid #cd8b8b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 10px;
+}
+  
+.submitButton:hover {
+    background-color: #ffffe3;
+    color: #020401;
+}
+  
+.contactInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top:10vh;
+}
+  
+.contactDetails {
+    display: flex;
+    align-items: center;
+    
+    padding:1vh;
+    margin-bottom: 20px;
+}
+
+.phone{
+    display:flex;
+    text-align:left;
+}
+.contactIcon {
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.contactsummary{
+    /* display: flex; */
+    /* text-align: center; */
+    padding:2vh;
+}
+  

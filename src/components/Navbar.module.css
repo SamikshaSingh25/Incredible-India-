@@ -1,0 +1,54 @@
+/* Navbar.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+PL:wght@100..400&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    padding: 1vw;
+    position: fixed;
+    top: 0;
+    width: 100%; /* Changed to 100% to fully cover the width */
+    height: 60px; /* Fixed height */
+    border: 3px solid #9e5d2500;
+    transition: background-color 0.3s ease;
+    z-index: 2;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 1.5vw; 
+    font-weight: bolder;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+}
+
+.links {
+    display: flex;
+}
+
+.navlink {
+    margin-right: 4vw; 
+    text-decoration: none;
+    color: #d3d3d3;
+    transition: color 0.3s ease;
+}
+
+.navlink:hover {
+    color:#ebeb78;
+}
+
+.scrolled {
+    background-color: #020401;
+  
+}
